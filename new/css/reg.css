@@ -1,0 +1,158 @@
+:required{
+  border:1px solid #ccc;
+}
+.z-title{
+	width:838px;
+	height: 39px;
+	line-height: 39px;
+	padding-left: 60px;
+	padding-right:60px;
+	margin:0 auto;
+	background: #BFF5C3;
+		border:1px solid #ccc;
+	border-bottom: none;
+	margin-top: 8px;
+}
+.z-title h3{
+	font-size: 15px;
+	font-weight: normal;
+	float:left;
+	width:auto;
+	color:#30412F;
+	height:auto;
+}
+.z-title h4{
+	float:right;
+	color:#30412F;
+	font-size:14px;
+	font-weight:normal;
+}
+.z-title a{
+	color:#30412F;
+	text-decoration: underline;
+	font-size:14px;
+}
+.z-content{
+	width:958px;
+	height:auto;
+	overflow: hidden;
+	padding-top:65px;
+	padding-bottom:40px;
+	margin:0 auto;
+	background: #F6FFF5;
+	border:1px solid #ccc;
+	border-top: none;
+}
+.z-content form{
+	font-size:14px;
+	color:#8D8D8D;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:30px;
+}
+.z-content form li{
+	height:40px;
+	line-height:40px;
+		margin:0 auto;
+	margin-bottom:20px;
+}
+.z-content form .z-x{
+	color:red;
+	width:20px;
+	height: 30px;
+}
+.z-content ul{
+	width:470px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.z-content span{
+	display:block;
+	float:left;
+	width:75px;
+	text-align:right;
+	margin-right:10px;
+}
+.z-content form  input{
+	width:257px;
+	height:30px;
+	padding-left: 10px;
+	float:left;
+}
+.r-agree{
+	width: 470px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 0px !important;
+}
+.r-agree span{
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-left:123px;
+}
+.r-agree span a{
+	color:blue;
+}
+.z-btn{
+	display:block;
+	width:180px !important;
+	height:36px !important;
+	background:url(../img/zc-bg.png);
+	margin:0 auto;
+	margin-left:128px;
+	font-size:15px !important;
+	color:white !important;
+	cursor: pointer;
+	padding-left: 0 !important;
+}
+select{
+	width: 270px !important;
+  height: 34px !important;
+  line-height: 34px;
+  padding-left: 15px !important;
+  float:left;
+}
+/*登录样式*/
+.z-center{
+	width:740px;
+	height: auto;
+	margin:0 auto;
+	overflow: hidden;
+}
+.z-login-left{
+	 width: auto;
+	 height: auto;
+	 float: left;
+}
+.z-login-right{
+	 width: auto;
+	 height: auto;
+	 float: right;
+	 margin-top:50px !important;
+}
+.z-login-right div{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 25px;
+}
+.z-login-right div span{
+	display: block;
+	text-align: justify;
+	text-align-last:justify;
+	width:45px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.z-login-right div input{
+	width: 241px;
+}
+#z-login-btn{
+	color:white;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+  background: url(../img/login-bnt-bg.png);
+}
+

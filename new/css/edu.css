@@ -1,0 +1,64 @@
+@import url(reg.css);
+.e-main{
+  width: 858px;
+  height:auto;
+  background:#F5FFF6;
+  margin:0 auto;
+  padding:40px 50px;
+  overflow: hidden;
+  border:1px solid #ccc;
+  border-top: none;
+}
+.e-left{
+   width: 480px;
+   height: auto;
+   text-align: center;
+   float: left;
+}
+.e-right{
+   float: right;
+   width: 372px;
+   height:auto;
+   /*background: blue;*/
+}
+#e-myform input{
+   display: block;
+   width:240px;
+   height:35px;
+   line-height: 35px;
+   margin:0 auto;
+   overflow: hidden;
+   border:0;
+   color:white;
+   font-size: 18px;
+   background: url(../img/edu-btn.png) no-repeat;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+.e-mar{
+   width:370px;
+   height:180px;
+   background: url(../img/edu-bg.png) no-repeat;
+   position: absolute;
+}
+#Marquee_y{
+  width:288px;
+  height:138px;
+  margin:0 auto;
+  overflow: hidden;
+  position: absolute;
+  bottom:21px;
+  left:41px;
+  font-size: 13px;
+  line-height: 20px;
+}
+#Marquee_y span{
+   float: right;
+}
+#Marquee_y div{
+   margin-bottom: 10px;
+}
+#Marquee_y a{
+   color: black;
+}
+

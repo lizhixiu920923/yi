@@ -1,0 +1,151 @@
+.anser-ques{
+   width: 958px;
+   border:1px solid #ccc;
+   margin:0 auto;
+   margin-top: 8px;
+}
+.anser-title{
+   padding-left: 40px;
+   background:#BFF5C3;
+   height:36px;
+   line-height: 36px;
+   color: black;
+   font-weight: normal;
+}
+.anser-title a{
+  color:black;
+  font-size: 16px;
+}
+.anser-title a:hover{
+  text-decoration: none;
+  color: black;
+}
+.anser-content{
+   overflow: hidden;
+}
+.anser-ques-left{
+  width:205px;
+  height:100%;
+  padding:40px 0;
+  background: #EBFFE8;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  float: left;
+}
+.anser-ques-left img{
+   padding:2px;
+   border:1px solid #ccc;
+}
+.anser-ques-right{
+   width:660px;
+   height: auto;
+   float: left;
+   padding:25px 45px;
+}
+.anser-user{
+  width: 100%;
+  height:30px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+.anser-box span{
+   height: 30px;
+   line-height: 30px;
+   margin-right: 8px;
+}
+#anser-start{
+  float: left;
+  width: 90px;
+  height:30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+  color:white;
+  background:#238620;
+  border-radius: 5px;
+}
+.anser-line{
+   width:562px;
+   height: 30px;
+   line-height: 30px;
+   float: right;
+}
+.anser-line span,.anser-line a{
+     color:#666;
+  font-size: 13px;
+    padding: 0px 3px;
+    text-align: center;
+}
+.anser-line a:hover{
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.line-through{
+  float: left;
+  width: 365px;
+  margin-top: 17px;
+  height:1px;
+  background: #ccc;
+}
+.question-box{
+   width: 562px;
+   float: right;
+   height: auto;
+   padding:30px 0px;
+   font-size: 15px;
+   line-height:30px;
+}
+.question-box span{
+  float: left;
+  color:#00538C;
+}
+.profess-suggest{
+  width: 960px;
+  background:#F5FFF6;
+  margin:0 auto;
+  margin-top: 8px;
+  height:auto;
+  border:1px solid #ccc;
+  overflow: hidden;
+}
+#suggest-form{
+   width:711px;
+   height:auto;
+   margin:0 auto;
+   margin-top:35px;
+   margin-bottom:35px;
+   overflow: hidden;
+}
+#suggest-form h4{
+  height: 40px;
+  line-height: 40px;
+  font-weight: normal;
+}
+#suggest-form textarea{
+  width: 99%;
+  height: 130px;
+  text-indent: 2px;
+  outline: none;
+}
+.suggest-btn{
+   width: 100%;
+   height:30px;
+   margin-top: 10px;
+}
+.suggest-btn input{
+  float: right;
+  width:100px;
+  height: 30px;
+  line-height: 30px;
+  border:none;
+  outline: none;
+  background:#60B001;
+  color:white;
+  text-align: center;
+  font-size:18px;
+  border-radius: 5px;
+}
+
+

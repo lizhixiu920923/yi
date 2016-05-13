@@ -1,0 +1,142 @@
+.n-left{
+  border:none !important;
+}
+.n-left-title{
+  width: auto !important;
+  border-bottom: 1px solid #ccc;
+}
+.n-left-title h3{
+  font-size: 16px;
+  font-weight: normal;
+}
+.w-left-main{
+  width:623px;
+  height:auto;
+  overflow: hidden;
+  border-bottom:1px dashed #ccc;
+  margin:30px 25px;
+  margin-bottom: 0;
+  padding-bottom:30px;
+}
+.w-hel-box{
+  margin-top: 10px;
+  border:1px solid #ccc;
+}
+.w-img{
+  width: auto;
+  height: auto;
+  float: left;
+  margin-right: 24px;
+}
+.w-img img{
+  display: block;
+  width: 192px;
+  height: 119px;
+}
+.w-news{
+  width: auto;
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+.w-news h3{
+  width: 399px;
+  font-weight: normal;
+  height: 22px;
+  line-height: 22px;
+}
+.w-news p{
+  width: 399px;
+  height: auto;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.w-news p a{
+  font-size: 13px !important;
+  color: blue !important;
+}
+.w-news a{
+  color:black;
+}
+.w-news a:hover{
+  text-decoration: none;
+  color:black;
+}
+.w-date{
+   font-size:6px !important;
+   float: right;
+}
+.w-hel-page{
+   width: 100%;
+   height:70px;
+   line-height: 70px;
+   padding:0 !important;
+}
+.w-hel-page ul{
+  width: auto;
+  height: 70px !important;
+  float: right;
+  padding:0 !important;
+}
+.w-hel-page ul li{
+  float:left;
+  margin-right:20px;
+  font-size: 13px;
+}
+.w-hel-page ul li a:hover{
+  text-decoration: none;
+}
+/*行业新闻*/
+.w-indus-box{
+  border:1px solid #ccc;
+}
+.w-indus-news{
+   width: auto;
+   height: auto;
+   padding:10px;
+   overflow: hidden;
+}
+.w-indus-left{
+   float: left;
+   width: 323px;
+   height:220px;
+   margin-right: 30px;
+}
+.w-indus-left img{
+   display: block;
+   width: 323px;
+   height: 220px;
+}
+.w-indus-right{
+   float: right;
+   width:295px;
+   height:220px;
+   overflow: hidden;
+}
+.w-indus-right h4{
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.w-indus-right a{
+  color:black !important;
+}
+.w-indus-right a:hover{
+   text-decoration: none;
+}
+.w-indus-right h5{
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+.w-indus-right p{
+  height: 25px;
+  line-height: 25px;
+  font-size: 13px;
+}
+.w-indus-right p a{
+  color:blue !important;
+}

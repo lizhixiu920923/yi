@@ -1,0 +1,363 @@
+/*banner*/
+.banner-box{
+	width: 960px;
+	height: 320px;
+	margin:0 auto;
+	margin-top:15px;
+}
+.banner-left{
+	width: 486px;
+	height: 320px;
+	background: blue;
+	float: left;
+	margin-right: 14px;
+	position: relative;
+	overflow: hidden;
+}
+.b-pic-box{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	left: 0;
+	top:0;
+}
+.b-pic-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top:0px;
+}
+.b-pic-box .mask{
+	width: 466px;
+	height: 30px;
+	padding-left: 20px;
+	line-height: 30px;
+	color:white;
+	font-size: 13px;
+	position: absolute;
+	bottom:15px;
+	background: rgba(0,0,0,.7);
+}
+.btn-box{
+	width: auto;
+	height: 25px;
+	line-height: 35px;
+	position: absolute;
+	bottom:13px;
+	right: 15px;
+}
+.btn-box li{
+	float: left;
+	width:15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	color: white;
+	margin-left: 5px;
+	background:#464541;
+	font-weight: 700;
+	font-size: 13px;
+}
+.banner-right{
+	width:458px;
+	height: 318px;
+	float: left;
+	overflow: hidden;
+	background: url(../img/banner-right-bg.png) repeat-x;
+	border:1px solid #969696;
+}
+.title{
+	width: 425px;
+	height: 35px;
+	line-height: 45px;
+	overflow: hidden;
+	padding-left: 26px;
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px dotted #969696;
+	position: relative;
+}
+.title a{
+	display: block;
+    position: absolute;
+    right: 15px;
+	color: #3D4A2C;
+	font-size: 13px;
+	bottom:-10px;
+}
+.b-middle{
+	width: 450px;
+	height: 173px;
+	margin:11px 4px 0 4px;
+	border-bottom: 1px dotted #969696;
+	padding-bottom: 5px;
+}
+.b-middle span{
+	display: block;
+	height: 13px;
+	list-style: 13px;
+	padding-top:2px;
+}
+.b-middle li{
+	width: 220px;
+	text-align: center;
+	font-size: 13px;
+	height: 168px;
+	float: left;
+	overflow: hidden;
+	color: #252525;
+}
+.b-bottom{
+	width: 452px;
+	height: 95px;
+	padding-left: 8px;
+}
+.b-tltle{
+	position: relative;
+}
+.b-bottom h3{
+	display: block;
+	width: 60%;
+	height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #724A0C;
+}
+.b-tltle div{
+    position: absolute;
+    right: 15px;
+    height: 30px;
+    line-height: 30px;
+    top:-3px;
+}
+.b-tltle a{
+      color: #3D4A2C;
+    font-size: 13px;
+}
+.news{
+	width: 95%;
+	height: 66px;
+	overflow: hidden;
+}
+.news .i-news-box{
+	width: 50%;
+	height:16px;
+	line-height: 16px;
+	text-align: left;
+	float: left;
+	list-style: disc;
+	font-size: 12px;
+	margin:0;
+}
+.i-news-point{
+	 width: 4px;
+	 height: 4px;
+	 border-radius: 50%;
+	 background: black;
+	 margin-bottom: 5px;
+	 margin-top: 5px;
+	 float: left;
+}
+.news a{
+	color: black;
+	float: left;
+	width:190px;
+	margin-left: 5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+/*广告图*/
+.adver{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	margin-top: 10px;
+	background: blue;
+	border:1px solid #CECECE;
+}
+/*医院介绍*/
+.hos{
+	width: 965px;
+	height: auto;
+	margin:0 auto;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.hos-left{
+	width:213px;
+	height:495px;
+	border:1px solid #CECECE;
+	float: left;
+	overflow: hidden;
+	padding:9px;
+}
+.hos-title{
+	width: 100%;
+	height:190px;
+	overflow: hidden;
+}
+.hos-title img{
+	display: block;
+	width: 100%;
+	height:190px;
+}
+.firend-link{
+	width:213px;
+	height:95px;
+	margin-top: 12px;
+}
+.firend-link li{
+	float: left;
+	width: 100px;
+	height:26px;
+	line-height: 26px;
+	text-align: center;
+	background: #DFDFDF;
+	border-radius: 3px;
+	margin-right:6px;
+	margin-top: 5px;
+	font-size: 13px;
+}
+.firend-link a{
+	color: black;
+}
+.erweima{
+	margin-top: 20px;
+	width:213px;
+	height: auto;
+}
+.erweima h3,.erweima a{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin:0 auto;
+	font-size: 15px;
+}
+.erweima h3{
+	height: 25px;
+	line-height:25px;
+}
+.hos-rigth{
+	overflow: hidden;
+	width: 714px;
+	height:515px;
+	float: right;
+}
+.doctor{
+	width: 712px;
+	height: 317px;
+	border:1px solid #CECECE;
+	background: url(../img/hosbg.png) no-repeat;
+	overflow: hidden;
+}
+.doctor-title{
+	width: 690px;
+	height: 36px;
+	padding-left:22px;
+	line-height: 45px;
+	overflow: hidden;
+	border-bottom:1px dotted #969696;
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+}
+.doctor-title a{
+    display: block;
+    position: absolute;
+    right: 15px;
+    color: #3D4A2C;
+    font-size: 13px;
+    bottom: -8px;
+}
+.doctor-bottom{
+	width: 668px;
+	height: 248px;
+	padding:16px 22px;
+	position: relative;
+}
+.do-left{
+	width:138px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+	/*background: red;*/
+}
+.do-left li{
+	float: left;
+	width: 100%;
+	height:30px;
+	margin-bottom: 6px;
+	line-height: 30px;
+	text-align: center;
+	background: url(../img/deparentment.png);
+	background-size: 100% 100%;
+}
+.do-left a{
+	color: #F1F7ED;
+	font-size: 14px;
+	font-weight: bold;
+}
+.do-right{
+   width: 510px;
+   float: right;
+   position: absolute;
+   right: 0px;
+}
+.do-right ul{
+	width: 165px;
+	height: auto;
+	float: left;
+	font-size: 10px;
+	margin:0 auto;
+  padding-top: 15px;
+}
+.do-right ul li{
+	text-align: center;
+}
+.do-right img{
+	display: block;
+	width:130px;
+	height: 172px;
+	border:2px solid white;
+	border-radius: 3px;
+	margin:0 auto;
+}
+.do-right h3{
+	width: 100%;
+	height:25px;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+  color:black;
+}
+.marquee-title{
+	padding-left: -30px;
+	height: 35px;
+	overflow: hidden;
+	line-height: 45px;
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px dotted #969696;
+	    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+.marquee-title a{
+	position: absolute;
+	right: 15px;
+	bottom:-10px;
+	color: #3D4A2C;
+    font-size: 13px;
+}
+.marquee{
+	width: 712px;
+	height: 184px;
+	border:1px solid #CECECE;
+    margin-top: 10px;
+    background: url(../img/hosbg.png) no-repeat;
+}

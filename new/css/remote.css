@@ -1,0 +1,40 @@
+.remote-content{
+  width: 960px;
+  height: auto;
+  margin:0 auto;
+  border:1px solid #ccc;
+  margin-top: 8px;
+  background:#F2FDF4;
+}
+.remote-content h3{
+   height:39px;
+   line-height: 39px;
+   padding-left:40px;
+   background:#BFF5C3;
+   font-size: 16px;
+   font-weight: normal;
+}
+.remote-img-show{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+.romote-font-show{
+  width: 100%;
+  height: auto;
+}
+.romote-font-show h4{
+   font-size: 24px;
+   height:50px;
+   line-height: 50px;
+     text-align: center;
+}
+.romote-font-show p{
+  width:850px;
+  margin:0 auto;
+  line-height:35px;
+  font-size: 16px;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}

@@ -1,0 +1,187 @@
+@import url(daoyi.css);
+*{
+   margin:0;
+   padding:0;
+}
+.r-area{
+   width: 500px;
+   height:248px;
+   padding:30px 70px;
+   overflow: hidden;
+}
+.r-area-line1{
+   margin-bottom: 20px;
+   margin-left: 80px;
+}
+.r-area-line1 select{
+    width: 127px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.r-area-line2{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.r-area-left{
+   width: auto;
+   height: 100%;
+   float: left;
+}
+.r-area-right{
+   width:420px;
+   height:auto;
+   float: left;
+}
+#r-text{
+   display: block;
+   width: 395px;
+   height:110px;
+   line-height: 15px;
+   margin-bottom: 15px;
+   padding:10px;
+}
+#r-btn{
+   width:136px;
+   height:36px;
+   line-height: 36px;
+   float: right;
+   text-align: center;
+   font-size: 18px;
+   border:none;
+   color:white;
+   background: url(../img/r-btnbg.png) no-repeat;
+}
+/*需求发布右侧新闻*/
+.r-need-right{
+   width:310px;
+   height:347px;
+   float: left;
+}
+.r-news-one{
+   width: 308px;
+   height:168px;
+   margin-bottom:8px;
+   border:1px solid #ccc;
+}
+.r-news-one h3{
+   height: 40px;
+   line-height: 40px;
+   padding-left: 30px;
+   font-size: 16px;
+   font-weight: normal;
+   background: #BFF5C3;
+}
+.r-news-box{
+   width: auto;
+   padding:0 20px;
+   height: 30px;
+   overflow: hidden;
+   padding-top: 2px;
+}
+.r-news-point{
+  line-height: 30px;
+  width: 4px;
+  height: 4px;
+  margin-bottom: 13px;
+  margin-top: 13px;
+  background:black;
+  float: left;
+  border-radius: 50%;
+}
+.r-news-box a{
+   font-size: 13px;
+   color: black;
+}
+.r-news-list{
+  float: left;
+  width:180px;
+  line-height: 30px;
+  padding-left: 5px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.r-news-date{
+  float: right;
+  line-height: 30px;
+  width: auto;
+}
+/*医生护工介绍*/
+.r-doctor{
+  width: 960px;
+  height:auto;
+  margin:0 auto;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.r-profess{
+  width: 473px;
+  margin-right: 10px;
+  height: auto;
+  border:1px solid #ccc;
+  background:#F2FEF4;
+  float: left;
+}
+.r-jishi{
+  width: 473px;
+  height:auto;
+  float: left;
+  border:1px solid #ccc;
+  background:#F2FEF4;
+}
+.r-doctor h3{
+      display: block;
+    height: 40px;
+    line-height: 40px;
+    width:443px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    background: #BFF5C3;
+}
+.r-doctor ul{
+  width:427px;
+  height:194px;
+  margin:0 auto;
+  margin-top: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 12px;
+  border-bottom: 1px dashed #666;
+}
+.r-doctor ul li{
+  float: left;
+}
+.profess-pic{
+  margin-right: 15px;
+}
+.profess-news{
+   width:286px;
+   height: 173px;
+   margin:10px 0;
+   overflow: hidden;
+}
+.r-doctor .r-page{
+   width: 82% !important;
+   float: right;
+   height:40px;
+   border-bottom: none;
+}
+.r-doctor .r-page a{
+  color:black !important;
+}
+.r-doctor .r-page a:hover{
+  text-decoration: none;
+  color:black;
+}
+.r-doctor .r-page li{
+   width: auto;
+   height: 40px;
+   line-height: 25px;
+   font-size: 13px;
+   float: left;
+   margin-right: 20px;
+}
+

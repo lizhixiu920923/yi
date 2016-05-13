@@ -1,0 +1,313 @@
+*{
+      margin:0;padding:0;
+}
+.d-appo{
+  width: 960px;
+  height:349px;
+  margin:0 auto;
+  margin-top: 8px;
+}
+.d-appo-left{
+  width: 640px;
+  height: 347px;
+  border:1px solid #ccc;
+  float: left;
+  margin-right:8px;
+  overflow: hidden;
+}
+.d-appo-left h3,.anser-left h3{
+   display: block;
+   height: 40px;
+   line-height: 40px;
+   width: 610px;
+   padding-left: 30px;
+   font-size: 16px;
+   font-weight: normal;
+   background: #BFF5C3;
+}
+.d-area{
+   width:329px;
+   height:auto;
+   padding:30px 156px 30px 156px;
+   background: #F2FDF4;
+}
+form ul{
+   width: 100%;
+   height:35px;
+   line-height:30px;
+   margin-bottom:15px;
+   overflow: hidden;
+}
+form ul li{
+  float:left;
+  height:35px;
+  line-height:30px;
+  overflow: hidden;
+}
+.d-btn-box{
+   float: none !important;
+}
+.d-btn{
+   display: block;
+   width:100px;
+   height: 30px;
+   line-height: 30px;
+   margin:0 auto !important;
+   background: url(../img/r-btnbg.png) no-repeat;
+   color:white;
+   font-size: 18px;
+   margin-right: 124px;
+   border:none;
+}
+select{
+  display:inline-block;
+  width:auto;
+  height:auto;
+  padding:5px 0px;
+}
+#d-city{
+  width: 114px;
+  margin-right: 12px;
+  overflow: hidden;
+}
+.d-font{
+   width: auto;
+   height: 30px;
+   line-height: 35px;
+   font-size:13px;
+}
+#d-hospital{
+  width:242px;
+}
+.d-appo-right{
+  height: 347px;
+  border:1px solid #ccc;
+  float: left;
+  background: #F2FDF4;
+}
+.d-appo-right h3,.anser-right h3{
+  height: 40px;
+  line-height: 40px;
+  width:278px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  background: #BFF5C3;
+  overflow: hidden;
+}
+.d-answer{
+  margin-top:10px;
+  width:308px;
+}
+.d-answer-box{
+  width: 288px;
+  line-height: 30px;
+  padding-left:20px;
+  overflow: hidden;
+}
+.d-answer-box a{
+    font-size: 13px;
+   color: black;
+}
+.w-news{
+   display: block;
+   width:170px;
+   height: auto;
+   line-height: 30px;
+   float: left;
+   padding-left: 10px;
+   overflow: hidden;
+   text-overflow:ellipsis;
+   white-space: nowrap;
+}
+.d-anser-point{
+  width:4px;
+  height:4px;
+  float: left;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  border-radius: 50%;
+  background: black;
+}
+.w-date{
+  float: right;
+  line-height: 30px;
+  padding-right: 20px;
+}
+/*专家答疑区域*/
+.d-anser{
+   width:960px;
+   height:265px;
+   margin:0 auto;
+   margin-top: 8px;
+   overflow: hidden;
+}
+.anser-left{
+  float: left;
+  background: #F2FDF4;
+   width: 640px;
+   height: 263px;
+   border:1px solid #ccc;
+   margin-right: 8px;
+}
+.anser-left form{
+   width:490px;
+   height:145px;
+   margin:0 auto;
+   margin-top: 40px;
+}
+.anser-left span{
+  float:left;
+   width:70px;
+   text-align: justify;
+   text-align-last:justify;
+   font-size: 14px;
+}
+.anser-text-line{
+   width: 100%;
+   height:35px;
+   line-height: 35px;
+}
+.anser-text-line input{
+   width:410px;
+   height: 26px;
+   line-height: 26px;
+   outline: none;
+   padding-left: 2px;
+}
+.anser-type{
+ width: 100%;
+ height:35px;
+ line-height: 35px;
+ margin-top: 25px;
+}
+.anser-type-check{
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+.check-one{
+  float: left;
+  margin-left:80px;
+}
+.check-one b{
+  font-weight: normal;
+  font-size: 14px;
+}
+.d-reset{
+   width: 100%;
+   height:30px;
+   line-height: 30px;
+   margin-top: 15px;
+}
+.d-reset input{
+  display: block;
+   width:100px;
+   height: 30px;
+   line-height: 30px;
+   background:url(../img/r-btnbg.png) no-repeat;
+   font-size: 18px;
+   color:white;
+   border:none;
+   margin:0 auto;
+}
+.anser-right{
+  float: right;
+  border:1px solid #ccc;
+  width:308px;
+  height:263px;
+  overflow: hidden;
+  background: #F2FDF4;
+}
+/*健康自测*/
+.helth-self{
+  width:958px;
+  height:auto;
+  background: #F2FDF4;
+  margin:0 auto;
+  border:1px solid #ccc;
+  margin-top: 8px;
+}
+.helth-self h3{
+  height: 40px;
+  line-height: 40px;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  background: #BFF5C3;
+}
+.anser-main-box{
+   padding:0 40px;
+   height: auto;
+   text-align: center;
+}
+.anser-main-box h4{
+  height:60px;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.anser-main-box h5{
+   line-height: 25px;
+   text-align: left;
+   font-size: 15px;
+   font-weight: normal;
+}
+.anser-main-box ul{
+  width: 100%;
+  height:76px;
+  margin-top: 30px;
+}
+.anser-main-box ul li{
+  width: 100%
+}
+.anser-main-box span{
+  float:left;
+  width: 90px;
+  height:30px;
+  color:white;
+  margin-right: 15px;
+  background: #248621;
+  text-align: center;
+  border-radius:  6px;
+  font-size: 18px;
+}
+.anser-main-box b{
+  font-weight: normal;
+  float: left;
+}
+.anser-main-box  li{
+  height: auto !important;
+}
+.anser-one{
+   padding-left: 15px;
+   float: left;
+   width:60px;
+   height: 40px;
+   line-height: 40px;
+   margin-right: 90px;
+   margin-top: 10px;
+}
+.anser-one input{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5px;
+}
+.anser-one div{
+  float: left;
+}
+.anser-main-btn{
+   margin:40px 0;
+}
+.anser-main-btn input{
+   width:100px;
+   height: 30px;
+   line-height: 30px;
+   background: url(../img/r-btnbg.png) no-repeat;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+
+

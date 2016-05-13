@@ -1,0 +1,154 @@
+form{
+	margin:0;
+	padding:0;
+}
+.n-picbox{
+	width: 958px;
+	height:100px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.n-contentbox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: inline;
+}
+.n-content-center{
+	width: 960px;
+	height: auto;
+	margin:0 auto;
+	margin-top: 8px;
+	overflow: hidden;
+}
+.n-left{
+	width: 672px;
+	height: auto;
+	float: left;
+	border:1px solid #C4C3C3;
+	position: relative;
+}
+.n-right{
+  width: 261px;
+  height: auto;
+  float: right;
+  overflow: hidden;
+  /*border:1px solid #C4C3C3;*/
+}
+.n-left-title{
+	width: 637px;
+	height: 39px;
+	padding-left: 35px;
+	line-height: 39px;
+	font-size: 11px;
+	background: #BFF5C3;
+}
+.n-left-pic,.n-left ul{
+	width: 612px;
+	padding:0px 30px;
+	height: auto;
+	padding-top: 20px;
+}
+.n-left-pic h3{
+	text-align: center;
+	font-size: 20px;
+	height: 20px;
+	line-height: 20px;
+}
+.n-left-pic h6{
+	text-align: center;
+	font-weight: normal;
+	margin-top: 15px;
+}
+.n-left-show{
+	margin-top: 20px;
+}
+.n-left-show img{
+	display: block;
+	margin:0 auto;
+}
+.n-left-pic p{
+	line-height: 30px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.n-left ul{
+	padding-bottom: 20px;
+}
+.n-left ul a{
+	font-size: 13px;
+	color: black;
+}
+/*右侧*/
+.n-search{
+	padding-top: 14px;
+	display: block;
+	height:auto;
+	overflow: hidden;
+	width: 100%;
+	font-size: 15px;
+}
+.n-article{
+	width: 200px;
+	padding-left: 3px;
+	background: #E8F4E8;
+	margin-left: 5px;
+}
+.n-search input{
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	border-radius: 2px;
+	float:left;
+}
+.n-btn{
+	width: 30px;
+	height: 25px !important;
+	background: url(../img/n-f.png) no-repeat;
+	border:none !important;
+	margin-left: 5px;
+}
+.n-anser{
+	width: 259px;
+	height:auto;
+	margin-top: 15px;
+    border:1px solid #C4C3C3;
+}
+.n-anser h3{
+	width:244px;
+	padding-left: 15px;
+	font-size: 18px;
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	background: #BFF5C3;
+}
+.n-anser li{
+	width: 229px;
+	height:auto;
+	line-height: 30px;
+	font-size: 13px;
+	list-style: disc;
+	padding-left:-3px;
+	margin-left: 25px;
+	margin-right: 10px;
+}
+.n-anser a{
+	color:#262626;
+}
+.n-img-box,.n-img-one{
+	width:100%;
+	height: auto;
+	margin-top:6px;
+}
+.n-img-two{
+	margin-top: 10px;
+}
+.n-img-two h3{
+	text-align: center;
+}
+.n-img-box img{
+	display: block;
+	margin:0 auto;
+}
